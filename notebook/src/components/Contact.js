@@ -1,17 +1,25 @@
 import React from 'react'
-// import './css/contact.css'
+import './ct.css'
+// document.querySelector('.close-btn').addEventListener('click', function() {
+//     document.querySelector('.overlay').classList.remove('visible');
+// });
+
+// // Automatically show the slider when the page loads (you can customize this)
+// window.onload = function() {
+//     document.querySelector('.overlay').classList.add('visible');
+// };
 export default function Contact() {
     return (
         <div>
-            <div class="overlay">
-                <div class="slider">
-                    <div class="slider-header">
-                        <div class="sticky-header">
+            <div className="overlay">
+                <div className="slider">
+                    <div className="slider-header">
+                        <div className="sticky-header">
                             <h2>"Need Support? Let’s Take the First Step Together - GET HELP NOW!"</h2>
                         </div>
-                        <span class="close-btn">&times;</span>
+                        <span className="close-btn">&times;</span>
                     </div>
-                    <div class="slider-content">
+                    <div className="slider-content">
                         <p>"If you're feeling overwhelmed by emotional challenges, remember that you don't have to navigate this journey alone. Opening up about your feelings is a powerful first step towards healing".</p>
                         <ul>
                             <li> ◉ Whether it's confiding in a trusted friend.</li>

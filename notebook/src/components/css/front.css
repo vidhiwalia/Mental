@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3eaea;
+    background-color: white;
     color: #333;
 }
 
@@ -22,26 +22,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: hsl(191, 57%, 54%);
+    background: hsl(191, 88%, 65%);
     position: relative;
     height: 30px;
+    font-weight: bold;
 
     
 } */
-
+section {
+    width: 100%;
+}
+/* Styling the logo */
 .logo {
+    font-size: 2em;
     font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-part-2 {
+    padding: 5px 10px;
+    border: 2px solid #761ba3;
+    clip-path: polygon(1% 0%, 100% 0%, 99% 100%, 0% 100%);
+    font-weight: bolder;
 }
 
 /* .nav-links {
     list-style: none;
     display: flex;
-    gap: 50px;
+    
 } */
 
 /* .nav-links li a {
     text-decoration: none;
-    color: #333;
+    color: #0e1e2e;
 } */
 
 .get-started {
@@ -96,4 +112,72 @@ body {
 .hero-image img {
     width: 500px;
     height: auto;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.logo-part-2 {
+    background: linear-gradient(45deg, #c317af, #d31bb2); /* Red gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Navigation links */
+/* .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #0e1e2e;
+    position: relative;
+} */
+
+/* .nav-links li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #0e1e2e; 
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out; 
+}
+
+.nav-links li a:hover::after {
+    width: 100%; 
+} */
+.gallery {
+    text-align: center;
+    padding: 5px 10%;
+    background-color:#ffffff;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gallery p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }

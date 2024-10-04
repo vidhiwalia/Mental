@@ -56,7 +56,7 @@ export default function Login(props) {
                 <div className="col-md-6 p-0">
                     <div className="login-image">
                         {/* You can place the surfing image here */}
-                        <img src="login image.jpg" className="img-fluid" alt="Surfing Image" />
+                        <img src="login image.jpg" className="img-fluid img-responsive" alt="Surfing Image" />
                     </div>
                 </div>
 
